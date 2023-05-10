@@ -3,9 +3,11 @@ import 'package:dice_roll/gradient_coloe.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
+     const MaterialApp(
       home: Scaffold(
-        body: GradientColor(Color.fromARGB(221, 104, 58, 183),Color.fromARGB(255, 104, 58, 183)),
+        body: GradientColor(
+         Color.fromARGB(221, 104, 58, 183),
+         Color.fromARGB(255, 104, 58, 183)),
       ),
     ),
   );
